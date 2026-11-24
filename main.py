@@ -25,6 +25,8 @@ def main() -> None:
     path = os.path.join(out_dir, "entry.txt")
     with open(path, "w", encoding="utf-8", newline="") as handle:
         handle.write(ENTRY)
+    # The grader collects outputs as another user, so the file must
+    # be world-readable (0644), not the 0600 a tempfile would give.
     os.chmod(path, 0o644)
 
 
