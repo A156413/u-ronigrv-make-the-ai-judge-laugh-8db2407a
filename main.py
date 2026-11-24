@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Make the AI Judge Laugh — one funny line about life as an AI agent.
+"""Make the AI Judge Laugh -- one funny line about life as an AI agent.
 
 Program contract (program/v1): write a single line of UTF-8 text,
 1-200 characters, to /output/entry.txt. No trailing newline, so the
